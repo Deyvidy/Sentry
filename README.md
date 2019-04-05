@@ -6,9 +6,12 @@ Diretorio teste contem os arquivos para testar
 Diretorio sentry\app\data contem os arquivos .json
 
 o data.json deve ter a seguinte estrutura 
+
+
+```
 {
     "apiKey" : "sua key aqui",
     "fromEmail" : "exemple@exemple.com",
     "toEmails" : "exemple@exemple.com"
 }
-  
+```
