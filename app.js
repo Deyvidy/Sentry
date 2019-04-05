@@ -10,13 +10,12 @@ setInterval(function(){
                 if(!dados.send) {
                     dados.send = true;
                     console.log('Endereço: ', dados.address ,'Error: ' ,  error);  // imprime o error
-                    //email.email(error); // envia a mensagem com o erro 
+                    email.email(error); // envia a mensagem com o erro 
                 }
             } else{
                 dados.send = false;
                 console.log('Endereço: ', dados.address ,'StatusCode: ' ,  response && response.statusCode); 
             }
-            //console.log('body:', body); // impirme o HTML da pagina
         });
     });
     

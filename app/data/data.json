@@ -1,0 +1,5 @@
+{
+    "apiKey" : "seu token aqui",
+    "fromEmail" : "exemple@exemple.com",
+    "toEmails" : "exemple@exemple.com"
+}
