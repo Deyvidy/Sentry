@@ -10,8 +10,9 @@ o data.json deve ter a seguinte estrutura
 
 ```
 {
-    "apiKey" : "sua key aqui",
+    "apiKey" : "seu token aqui",
     "fromEmail" : "exemple@exemple.com",
     "toEmails" : "exemple@exemple.com"
 }
 ```
+Acesse https://sendgrid.com/ crie a conta para gerar um token
